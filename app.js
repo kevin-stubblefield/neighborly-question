@@ -3,8 +3,8 @@ function Buyer(name, desiredSellers) {
     var currentCandidate = 0;
 
     this.name = name;
-    this.partners = [];
     this.desiredSellers = desiredSellers;
+    this.partners = [];
     this.candidates = [];
 
     this.rank = function(entity) {
